@@ -1,0 +1,17 @@
+{
+  "name": "beerlist-mean",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "angular-ui-router": "^0.3.2",
+    "body-parser": "^1.15.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}

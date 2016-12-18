@@ -1,0 +1,12 @@
+.image-beer {
+max-height: 250px;
+max-width: 250px;
+}
+
+a:hover { 
+    background-color: yellow;
+}
+
+a:hover {
+    background-color: blue;
+}

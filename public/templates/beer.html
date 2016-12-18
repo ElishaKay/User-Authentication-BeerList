@@ -1,0 +1,22 @@
+<div class="page-header">
+  <a href="/#/home">back</a>
+
+  <div>
+  <h3>
+    <span>{{beer.name}}</span>
+    <span>{{beer.review}}
+    <img class="image-beer" src="{{beer.image}}">
+
+    <hr>
+      <h4>Reviews</h4>
+      <div ng-repeat="review in beer.reviews">
+        <h4>{{review.name}}</h4>
+        <p>{{review.text}}</p>
+      </div>
+    </hr>
+
+    <input type="text" placeholder="Leave a review" ng-model="reviewText">
+    <button class="btn btn-primary" ng-click="addReview()">Post It</button>
+  </h3>
+  </div>
+</div>
