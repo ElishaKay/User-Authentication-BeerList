@@ -5,5 +5,9 @@ app.factory('auth', ['$http', function($http){
     return $http.post('/register', user);
   };
 
+  auth.logIn = function(user){
+      return $http.post('/login', user);
+    };
+
   return auth;
 }]);
